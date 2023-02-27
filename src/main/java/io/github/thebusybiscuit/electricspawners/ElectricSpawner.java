@@ -45,7 +45,7 @@ public class ElectricSpawner extends SimpleSlimefunItem<BlockTicker> implements 
                 "&8\u21E8 &e\u26A1 &7240 J/Mob"
         ), RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 null, SlimefunItems.PLUTONIUM, null, 
-                SlimefunItems.ELECTRIC_MOTOR, new CustomItemStack(Material.SPAWNER, "&bReinforced Spawner", "&7Type: &b" + ChatUtils.humanize(type.toString())), SlimefunItems.ELECTRIC_MOTOR,
+                SlimefunItems.ELECTRIC_MOTOR, Material.SPAWNER, SlimefunItems.ELECTRIC_MOTOR,
                 SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.BLISTERING_INGOT_3
         });
         // @formatter:on
